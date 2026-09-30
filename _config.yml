@@ -1,0 +1,32 @@
+title: "ACSW - Workshop on Automotive Cyber Security"
+description: "Workshop on Automotive Cyber Security"
+url: "https://acsw.github.io"
+baseurl: ""
+lang: "en-US"
+
+theme: jekyll-theme-tactile
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-seo-tag
+
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+
+editions:
+  - "2026"
+  - "2025"
+  - "2024"
+  - "2023"
+  - "2022"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+

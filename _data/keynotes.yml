@@ -1,0 +1,114 @@
+"2022": []
+
+"2023": []
+
+"2024":
+  - type: "Opening Keynote"
+    time: "09:15 / 10:30"
+    name: "Sara Rampazzi"
+    prefix: "Prof."
+    affiliation: "University of Florida"
+    title: "Building Autonomous Vehicle Security from Untrustworthy Hardware and Sensors"
+    abstract: >-
+      Physics-based vulnerabilities challenge traditional cybersecurity schemes by generating
+      unexpected interactions that affect both electronic components and high-level software
+      applications governing autonomous systems' automatic decisions. In this talk, I will
+      describe security vulnerabilities of sensing technologies that occur at the boundary
+      between hardware electronics and software frameworks, including machine learning and
+      sensor fusion models. I will demonstrate how these interactions can compromise the
+      integrity, availability, and confidentiality of vehicle operations, and how combinations
+      of software and hardware mitigation techniques can make autonomous systems resilient to
+      such attacks.
+
+"2025":
+  - type: "Industrial Keynote"
+    time: "14:00 / 15:00"
+    name: "Anastasia Cornelio"
+    affiliation: "Ferrari S.p.A."
+    image: "/assets/editions/2025/pics/cornelio.jpg"
+    title: "Cybersecurity and Sport Cars"
+    abstract: >-
+      The mail trends in vehicle electronical architecture are the increasing of vehicle
+      functionalities and the spreading of the Software Defined Vehicles. These aspects,
+      together with the limited resources and reliability needs of automotive systems,
+      represent the main challenges of the automotive cybersecurity. In this presentation we
+      show the evolutions of the automotive cybersecurity, including the regulatory aspect and
+      the impacts on the development phase and the entire vehicle lifecycle.
+    bio: >-
+      Anastasia Cornelio, Ph.D., is a Mathematician from University of Bologna, with a PhD in
+      Applied Mathematics at University of Modena and Reggio Emilia. She started dealing with
+      automotive cybersecurity in 2016, when she was with Marelli. Currently, Anastasia works
+      in the R&D Cybersecurity Manager at Ferrari, where she's in charge of managing Cyber
+      Security for on-board components and EE Architecture during the entire vehicle lifecycle.
+
+  - type: "Academic Keynote"
+    time: "15:00 / 16:00"
+    name: "Sara Rampazzi"
+    prefix: "Prof."
+    affiliation: "University of Florida"
+    image: "/assets/editions/2025/pics/rampazzi.png"
+    title: "Building Autonomous Vehicle Security from Untrustworthy Hardware and Sensors"
+    abstract: >-
+      Physics-based vulnerabilities challenge traditional cybersecurity schemes by generating
+      unexpected interactions that affect both electronic components and high-level software
+      applications governing autonomous systems' automatic decisions. In this talk, I will
+      describe security vulnerabilities of sensing technologies that occur at the boundary
+      between hardware electronics and software frameworks, including machine learning and
+      sensor fusion models. I will demonstrate how these interactions can compromise the
+      integrity, availability, and confidentiality of vehicle operations, and how combinations
+      of software and hardware mitigation techniques can make autonomous systems resilient to
+      such attacks.
+    bio: >-
+      Sara Rampazzi, Ph.D., is an assistant professor at the University of Florida since 2021.
+      She is a member of the Florida Institute for Cybersecurity Research (FICS), Warren B.
+      Nelms Institute, and Florida Institute for National Security (FINS). Her research areas
+      include cyber-physical systems security with applications in Autonomous Systems,
+      Healthcare, Critical infrastructure, and the Internet of Things. Dr. Rampazzi investigates
+      security and privacy risks and designs defense strategies for trustworthy and resilient
+      cyber-physical systems despite emerging physical attacks. Several media outlets covered
+      her work on preventing inaudible and invisible light commands injection into smart home
+      devices, protecting underwater datacenters from acoustic attacks, and side channel
+      analysis to prevent eavesdropping on speech. Forbes has recognized her work on LiDAR
+      spoofing attacks on autonomous vehicles as the first research on practical attacks against
+      LiDAR systems. She is currently Associate Chair of IEEE Security & Privacy and Program
+      Co-Chair of the USENIX VehicleSec Symposium 2025. She is also a steering committee member
+      of USENIX WOOT Conference on Offensive Technologies (WOOT). Dr. Rampazzi received the
+      Medtronic Outstanding Research Contributor Recognition for medical device security in
+      2020. Her work is sponsored by NSF, ONR, Meta, and Toyota Info Tech Lab.
+
+"2026":
+  - type: "Keynote Presentation"
+    time: "09:45 / 11:00"
+    name: "Alfred Chen"
+    prefix: "Prof."
+    affiliation: "University of California, Irvine"
+    image: "/assets/pics/chen.jpg"
+    title: "Towards Secure and Safe AI: The Case of Autonomous Systems"
+    abstract: >-
+      Recent years have witnessed a global phenomenon in the deployment and commercialization
+      of real-world AI-enabled autonomous systems such as autonomous cars, drones, and robots,
+      bringing revolutionary changes to numerous industries and our society. In such systems,
+      AI components are in charge of various safety-critical decision-making processes, making
+      their security and safety more critical than ever to our daily lives and society. Over
+      the past 8 years, my group performed the first security analysis and/or defense designs on
+      a wide range of safety-critical AI components in real-world autonomous system contexts,
+      ranging from 3D perception, sensor fusion, lane detection, traffic light detection,
+      localization, prediction, to planning, with a particular depth pursuit in understanding
+      the attack practicality and realism. In this talk, I will provide a highlight of our main
+      results and findings, reflect on the key scientific challenges we have faced, and discuss
+      potential future directions and challenges.
+    bio: >-
+      Alfred Chen is an Associate Professor of Computer Science at the University of California,
+      Irvine. His research interests broadly lie in the security and safety of computer
+      technologies of high criticality to daily life and society. His current focus is on the
+      security issues in emerging safety-critical autonomous cyber-physical systems such as
+      autonomous cars, drones, and robots. His works have high impacts in both academic and
+      industry with 60+ research papers in top-tier venues across security, AI/ML, robotics,
+      mobile systems, transportation, and software engineering; a nationwide USDHS US-CERT
+      alert, multiple CVEs; 50+ news coverage by major media such as Forbes, Fortune, and BBC;
+      and vulnerability report acknowledgments from 30+ autonomous vehicle companies, USDOT,
+      Apple, Microsoft, DJI, and the V2X standardization workgroup. He was the lead co-founder
+      of USENIX/ISOC Symposium on Vehicle Security and Privacy (VehicleSec), the first academic
+      conference dedicated to vehicle security and privacy topics. He received several awards
+      such as NSF CAREER Award, ProQuest Distinguished Dissertation Award, and UCI Chancellor's
+      Award for mentoring. Chen received Ph.D. from the University of Michigan in 2018.

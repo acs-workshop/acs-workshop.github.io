@@ -1,0 +1,208 @@
+---
+---
+@import "{{ site.theme }}";
+
+$acsw-green: #004D25;
+$acsw-green-dark: #003719;
+$acsw-green-soft: #eef5f1;
+
+/* Keep Tactile as the base theme and only add ACSW-specific accents/navigation. */
+a { color: $acsw-green; }
+a:hover { color: $acsw-green-dark; }
+
+header h1,
+header h1 a,
+#main_content h1,
+#main_content h2,
+#main_content h3 {
+  color: $acsw-green;
+}
+
+#header_wrap {
+  background: #004D25;
+}
+
+#header_wrap .inner {
+  width: 85%;
+  max-width: 1400px;
+}
+
+#project_title,
+#project_tagline,
+#project_title a {
+  color: #ffffff;
+}
+
+#project_title a {
+  text-decoration: none;
+}
+
+#project_title a:hover {
+  text-decoration: underline;
+}
+
+header h1 a {
+  text-decoration: none;
+}
+
+.acsw-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .4rem;
+  margin: 1rem 0;
+}
+
+.acsw-nav a {
+  display: inline-block;
+  padding: .35rem .55rem;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.acsw-nav a:hover,
+.acsw-nav a.active {
+  background: $acsw-green;
+  color: #fff;
+}
+
+.acsw-nav label {
+  margin-left: auto;
+  font-weight: 600;
+}
+
+.acsw-nav select {
+  padding: .25rem .4rem;
+}
+
+#main_content img {
+  max-width: 100%;
+  height: auto;
+}
+
+#main_content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.5rem;
+}
+
+#main_content th,
+#main_content td {
+  padding: .55rem .7rem;
+  border: 1px solid #d8dfdb;
+  vertical-align: top;
+}
+
+#main_content th {
+  background: $acsw-green-soft;
+}
+
+#main_content blockquote {
+  border-left-color: $acsw-green;
+}
+
+@media (max-width: 700px) {
+  .acsw-nav label {
+    margin-left: 0;
+  }
+}
+
+/* Responsive content width and typography. */
+.inner {
+  width: 85%;
+  max-width: 1400px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: clamp(17px, 1.1vw, 20px);
+  line-height: 1.7;
+}
+
+/* Reusable keynote layout: portrait on the left, content on the right. */
+.keynote-speaker {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2.5rem 0 3rem;
+}
+
+.keynote-photo-wrapper {
+  flex: 0 0 220px;
+}
+
+.keynote-photo-wrapper img {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+.keynote-bio {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.keynote-bio h2 {
+  margin-top: 0;
+}
+
+.keynote-type {
+  margin: 0 0 .35rem;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .inner {
+    width: 92%;
+  }
+
+  .keynote-speaker {
+    display: block;
+  }
+
+  .keynote-photo-wrapper {
+    width: 180px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .keynote-photo-wrapper img {
+    width: 100%;
+  }
+}
+
+#main_content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 2rem;
+  font-size: 1rem;
+  background: #ffffff;
+  border: 2px solid #004D25;
+}
+
+#main_content th {
+  background-color: #004D25;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: left;
+  padding: 0.8rem 1rem;
+  border: 1px solid #004D25;
+}
+
+#main_content td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #b8c8bf;
+  vertical-align: top;
+}
+
+/* Alterna leggermente il colore delle righe */
+#main_content tbody tr:nth-child(even) {
+  background-color: #f3f7f5;
+}
+
+/* Evidenzia la riga al passaggio del mouse */
+#main_content tbody tr:hover {
+  background-color: #e4eee9;
+}

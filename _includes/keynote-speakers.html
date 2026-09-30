@@ -1,0 +1,24 @@
+{% assign speakers = site.data.keynotes[page.edition] %}
+
+{% if speakers and speakers.size > 0 %}
+  {% for speaker in speakers %}
+  <article class="keynote-speaker">
+    {% if speaker.image %}
+    <div class="keynote-photo-wrapper">
+      <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.prefix }} {{ speaker.name }}">
+    </div>
+    {% endif %}
+
+    <div class="keynote-bio">
+      {% if speaker.type %}<p class="keynote-type">{{ speaker.type }}{% if speaker.time %} · {{ speaker.time }}{% endif %}</p>{% endif %}
+      <h2>{% if speaker.prefix %}{{ speaker.prefix }} {% endif %}{{ speaker.name }}</h2>
+      {% if speaker.affiliation %}<p><strong>{{ speaker.affiliation }}</strong></p>{% endif %}
+      {% if speaker.title %}<h3>{{ speaker.title }}</h3>{% endif %}
+      {% if speaker.abstract %}<h4>Abstract</h4>{{ speaker.abstract | markdownify }}{% endif %}
+      {% if speaker.bio %}<h4>Bio</h4>{{ speaker.bio | markdownify }}{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+{% else %}
+<p>Keynote information is not available for this edition.</p>
+{% endif %}
